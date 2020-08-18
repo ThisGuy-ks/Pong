@@ -8,11 +8,9 @@ public class Main {
 		PongPanel panel = new PongPanel();
 		
 		frame.getContentPane().add(panel);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 		frame.setVisible(true);
-		frame.setSize(900,600);
-		
+		frame.setSize(900,600);		
 		frame.setResizable(false);
 	}
 

@@ -15,8 +15,8 @@ public class Ent extends Rectangle{
 	
 	Random randomx = new Random();
 	Random randomy = new Random();
-	int dx = randomx.nextInt((4 - 3) + 1) + 3;
-	int dy = -(randomy.nextInt((4 - 3) + 1) + 3);
+	int dx = (randomx.nextInt(2) + 3);
+	int dy = -(randomy.nextInt(2) + 3);
 	Rectangle up, down;
 	Ent(int a, int b, int w, int h, String s){
 		x=a;
