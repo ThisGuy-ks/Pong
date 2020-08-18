@@ -1,1 +1,1 @@
-# Pong
+Java Pong Game
